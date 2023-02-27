@@ -1,0 +1,12 @@
+#! /bin/bash
+sudo sed -i '/kashyapj.mpo:/d' mail.txt 
+sed -e 's/kashyapj.mpo@mail2.planetc.net,//' mail.txt >> alias
+mv alias mail.txt 
+sed -e 's/kashyapj.mpo@mail2.planetc.net//' mail.txt >> alias
+mv alias mail.txt
+#! /bin/bash
+sudo sed -i '/karanb.mpo:/d' mail.txt 
+sed -e 's/karanb.mpo@mail2.planetc.net,//' mail.txt >> alias
+mv alias mail.txt 
+sed -e 's/karanb.mpo@mail2.planetc.net//' mail.txt >> alias
+mv alias mail.txt
