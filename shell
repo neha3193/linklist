@@ -1,0 +1,13 @@
+#! /bin/sh
+as_cr_letters='abcdefghijklmnopqrstuvwxyz'
+as_cr_LETTERS='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+as_cr_Letters=$as_cr_letters$as_cr_LETTERS
+as_cr_digits='0123456789'
+as_cr_alnum=$as_cr_Letters$as_cr_digits
+as_tr_sh="sed y%*+%pp%;s%[^_$as_cr_alnum]%_%g"
+echo $as_tr_sh
+# Sed expression to map a string onto a valid CPP name.
+as_tr_cpp="sed y%*$as_cr_letters%P$as_cr_LETTERS%;s%[^_$as_cr_alnum]%_%g"
+
+echo $as_tr_cpp
+
